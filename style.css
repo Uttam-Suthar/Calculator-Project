@@ -1,0 +1,110 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: #252525;
+ }
+
+
+ :root {
+     --border-radius: 5px;
+     --border-width: 1px;
+     --light-grey: #e2e0e0;
+     --blue: #3f3ffb;
+     --orange: #ffc877;
+     /* --red: #f66868; */
+ }
+
+
+ #container {
+
+     width: 45%;
+     height: 80%;
+     min-width: 300px;
+     min-height: 400px;
+     background-color: var(--light-grey);
+     margin: auto;
+     margin-top: 60px;
+     border: 2px solid var(--light-grey);
+     border-radius: var(--border-radius);
+     padding: 10px;
+ }
+
+ #title {
+     background-color: black;
+     color: white;
+     text-transform: uppercase;
+     text-align: center;
+     padding: 10px;
+     height: 70px;
+     text-align: center;
+     padding: 13px;
+     /* border: 2px solid red; */
+     margin-top: 15px;
+     margin-bottom: 10px;
+     box-shadow: 0px 0px 5px 5px rgba(167, 154, 154, 0.9), 5px 5px 15px rgba(9, 9, 9, 0.6);
+ }
+
+ #title h1 {
+     /* border: 2px solid beige; */
+     margin: auto;
+ }
+
+ #display-container {
+     font-size: 2.8rem;
+     display: flex;
+     align-items: flex-end;
+     justify-content: flex-end;
+     color: var(--blue);
+     width: 100%;
+     height: 20%;
+     min-height: 100px;
+     border-radius: var(--border-radius);
+     background-color: whitesmoke;
+     margin-bottom: 10px;
+     box-shadow: 0px 0px 15px rgba(209, 198, 198, 0.8), 5px 5px 15px rgba(0, 0, 0, 0.2);
+ }
+
+ #display-container p {
+     margin: 0.5rem;
+     vertical-align: text-bottom;
+ }
+
+ #buttons-container {
+     width: 100%;
+     height: 60%;
+     min-height: 300px;
+     border: var(--border-width) solid var(--light-grey);
+     border-radius: var(--border-radius);
+     background-color: var(--light-grey);
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+ }
+
+ .button {
+     width: 24.5%;
+     height: 20%;
+     min-height: 59px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border: var(--border-width) solid var(--light-grey);
+     background-color: white;
+     font-size: 1.8rem;
+     cursor: pointer;
+     transition-duration: 1s;
+     box-shadow: 0px 0px 5px 3px rgba(250, 247, 247, 0.978), 5px 5px 15px rgba(0, 0, 0, 0.2);
+     /* box-shadow: 0px 0px 15px rgba(248, 246, 246, 0.5), 5px 5px 15px rgba(0, 0, 0, 0.2); */
+ }
+
+ .button:hover {
+     background-color: var(--orange);
+     /* background-color: #E6E6E6; */
+ }
+
+
+ .btn {
+     background-color: #d9d9d9;
+ }
